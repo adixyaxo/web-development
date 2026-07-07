@@ -49,7 +49,7 @@ const Form = () => {
   };
 
   return (
-    <div className="w-full h-[40vh] bg-slate-900 py-10 px-10 my-10 mx-10 rounded-2xl">
+    <div className="w-[90%] h-[40vh] bg-slate-900 py-10 px-10 my-10 mx-[5%] rounded-2xl">
       <form onSubmit={handleSubmit} className="flex flex-col items-start">
         <Container
           id="name"
