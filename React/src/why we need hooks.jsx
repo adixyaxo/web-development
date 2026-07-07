@@ -1,6 +1,5 @@
 // rafce - react arrow function component export from ES7+ React/Redux/React-Native snippets extension
 import React from 'react'
-
 let variable = 100
 
 const square = (variable)=>{return variable*variable}
@@ -10,7 +9,7 @@ const hello_alert = (variable)=>{variable=variable*2}
 const App = () => {
   return (
     <div>
-      <h1>App {square(variable)}</h1>
+      <h1 class="align-middle w-screen text-center">App {square(variable)}</h1>
       <button onClick={hello_alert(variable)}>double amount</button>
     </div>
   )
