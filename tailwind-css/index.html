@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./app.css" rel="stylesheet">
+  <!-- Link to the output not input -->
+</head>
+
+<body>
+  <h1 class="text-3xl font-light text-black w-screen align-middle text-center">
+    Hello world!
+  </h1>
+  <!-- Working with grid -->
+  <h1>For Equal Parts</h1>
+
+  <div class="m-4 grid grid-cols-2 gap-4 sm:grid-cols-4">
+    <div class="h-[10vh] rounded-l bg-blue-400 shadow-lg">1</div>
+    <div class="h-[10vh] rounded-l bg-orange-300 shadow-lg">2</div>
+    <div class="h-[10vh] rounded-l bg-green-400 shadow-lg">3</div>
+    <div class="h-[10vh] rounded-l bg-slate-300 shadow-lg">4</div>
+  </div>
+  <h1>For Non Equal</h1>
+  <div>
+    <div class="m-4 grid gap-4 sm:grid-cols-12">
+      <div class="col-span-6 h-[10vh] rounded-4xl bg-black"></div>
+      <div class="col-span-2 h-[10vh] rounded-2xl bg-black"></div>
+      <div class="col-span-4 h-[10vh] rounded-3xl bg-black"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
