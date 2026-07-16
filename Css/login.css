@@ -1,0 +1,59 @@
+body {
+  background: #1a1a1a;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  border: solid black 1px;
+  width: 25vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+div h1 {
+  color: blue;
+  size: 5vw;
+  padding: 5px;
+  text-align: center;
+}
+
+div form {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5vh;
+  padding-bottom: 5vh;
+}
+
+div form input {
+  margin-bottom: 2vh;
+  height: 2.5vh;
+  width: 70%;
+}
+
+div form button {
+  width: 70%;
+  height: 5vh;
+  margin-top: 2vh;
+  background-color: transparent;
+  color: black;
+  border: solid #1a1a1a 1px;
+  border-radius: 5px;
+}
+
+div form button span{
+  font-size: 1.25rem;
+  font: bold;
+}
