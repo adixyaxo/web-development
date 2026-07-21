@@ -11,16 +11,16 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export function CardDemo() {
+export function CardDemo({title="title",description ="description",buttonText="buttonText"}) {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Login to your account</CardTitle>
+        <CardTitle>{title}</CardTitle>
         <CardDescription>
-          Enter your email below to login to your account
+          {description}
         </CardDescription>
         <CardAction>
-          <Button variant="link">Sign Up</Button>
+          <Button variant="link">{buttonText}</Button>
         </CardAction>
       </CardHeader>
       <CardContent>

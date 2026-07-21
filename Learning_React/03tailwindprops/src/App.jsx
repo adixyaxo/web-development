@@ -3,13 +3,17 @@ import './App.css'
 
 import React from 'react'
 import { CardDemo } from './components/ui/carddemo'
-
+import { Calendar } from './components/ui/calendar'
 const App = () => {
+  const [date, setDate] = React.useState<Date | undefined>(new Date())
+
   return (
-    <>
-      <h1 className='text-7xl w-full p-10 text-center text-slate-800 font-extralight'>Vite with tailwind</h1>
-      <CardDemo/>
-    </>
+    <Calendar
+      mode="single"
+      selected={date}
+      onSelect={setDate}
+      className="rounded-lg border"
+    />
   )
 }
 
